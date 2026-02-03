@@ -1,33 +1,24 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+### ENV / SECRETS ###
+.env
+.env.*
+*.pem
+*.key
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+### Logs ###
+*.log
+logs/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### React / Node ###
+node_modules/
+dist/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+.vite/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-### VS Code ###
-.vscode/
+### OS ###
+.DS_Store
+Thumbs.db
